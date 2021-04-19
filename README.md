@@ -16,8 +16,10 @@ If you are familiar with the `selenium` library, you can change `gquestions.py` 
 #### Step 1: Download `ChromeDriver` and place it under `driver/`
 Check the version of your chrome browser (in `setting` -> `About Chrome`), and download the matching version of driver from https://chromedriver.chromium.org/.
 
-#### Step 2: Start with a fresh python 3.7 environment and install the required packages
+#### Step 2: Start with a python 3.7 virtual environment and then install the required packages
 ```
+python3 -m venv env
+source env/bin/activate
 pip -r requirements.txt
 ```
 
